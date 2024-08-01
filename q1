@@ -1,0 +1,6 @@
+//Suppose you are building a payment checkout page and must display the final price after the discount Create a simple discount calculator that takes two values from the variables the total cost and the discount percentage and prints the discounted value
+
+let totalvalue = 2000;
+let discountpercentage = 20;
+let discountvalue= totalvalue-(totalvalue*discountpercentage)/100
+console.log("The Final Price after discount is: " + discountvalue)
